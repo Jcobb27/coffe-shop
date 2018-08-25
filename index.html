@@ -22,7 +22,8 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Lato|Love+Ya+Like+A+Sister" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-
+    <script src="scroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -65,24 +66,18 @@
     </div>
 
     <!--About Section-->
-    <div class="container" id="aboutText" "aboutSection">
+    <div class="container" id="aboutText" >
 
-            <img id="aboutImg" src="images/aboutus.jpg">
+        <img id="aboutImg" src="images/aboutus.jpg">
 
 
-        <p>
-            Morbi aliquam neque nisl, et pellentesque sapien fermentum ac. Praesent mollis neque at quam pharetra fringilla. Ut scelerisque
-            nibh lacus, et elementum lacus elementum gravida. Nunc sed nulla non eros luctus consectetur. Suspendisse lacinia
-            commodo porta. </p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non eleifend lorem. Aenean at vestibulum sapien, non
-            finibus ex. Quisque fringilla leo sit amet ullamcorper hendrerit. Nulla elit diam, pretium vitae ex sodales,
-            imperdiet faucibus dui. Aenean aliquam, elit et maximus auctor, ante eros luctus felis, in tincidunt turpis dui
-            nec nunc. Pellentesque venenatis metus eu blandit placerat.
-        </p>
-
+        <p id= "aboutSection">
+            We are a family-owned coffee shop founded in 2008. We are located in Collierville's historic town square. We have lots of
+            delicious foods and drinks and gelato (besides our wonderful coffee). Please come and check us out.</p>
 
     </div>
+
+    <div id = "clear"></div>
 
     <!--Come See Us-->
     <div class="jumbotron parallax" id="visitSection">
@@ -100,28 +95,29 @@
                 <h3>Hours of Operation: </h3>
                 <hr>
                 <p>
-                    monday - 7am to 6pm
+                    Monday - 7am to 6pm
                 </p>
                 <p>
-                    tuesday - 7am to 6pm
+                    Tuesday - 7am to 6pm
                 </p>
                 <p>
-                    wednesday - 7am to 6pm
+                    Wednesday - 7am to 6pm
                 </p>
-                thursday - 7am to 6pm
-                </p>
-                <p>
-                    friday - 7am to 6pm
+                Thursday - 7am to 6pm
                 </p>
                 <p>
-                    saturday - 8am to 6pm
+                    Friday - 7am to 6pm
+                </p>
+                <p>
+                    Saturday - 8am to 6pm
                 </p>
 
             </div>
 
             <div class=" col-xs-12 col-md-6">
                 <!-- google maps -->
-                <iframe width="480" id = "map" height="230" class="google" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Square+Beans+Coffee+Company,+Collierville,+TN&amp;aq=0&amp;oq=square+beans+cof&amp;sll=35.830521,-85.978599&amp;sspn=3.29087,5.817261&amp;t=m&amp;ie=UTF8&amp;hq=Square+Beans+Coffee+Company,+Collierville,+TN&amp;ll=35.04305,-89.665689&amp;spn=0.004287,0.010493&amp;z=16&amp;output=embed"></iframe>
+                <iframe width="480" id="map" height="230" class="google" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Square+Beans+Coffee+Company,+Collierville,+TN&amp;aq=0&amp;oq=square+beans+cof&amp;sll=35.830521,-85.978599&amp;sspn=3.29087,5.817261&amp;t=m&amp;ie=UTF8&amp;hq=Square+Beans+Coffee+Company,+Collierville,+TN&amp;ll=35.04305,-89.665689&amp;spn=0.004287,0.010493&amp;z=16&amp;output=embed"></iframe>
             </div>
         </div>
     </div>
@@ -148,7 +144,7 @@
             <div class="col-xs-12 col-md-3 offset-md-2">
                 <a class="nav-link" href="https://www.facebook.com/SquareBeans/?__xts__[0]=68.ARAswAyCDEWt02UDn6OPSuRQjt5hthX4BuYO25NsN0FMUnofH5UCtjXvoHTGW5sGFlM0vfCAAUZj_nZs0jTCpHQ9QphD9UjPi_EMvqcq18OY5ULLADtsZUXEMsf4KoAPVJV169I"
                     target="_blank">
-                    <i class="fab fa-facebook-square" id = "contactIcon"></i>
+                    <i class="fab fa-facebook-square" id="contactIcon"></i>
                 </a>
 
             </div>
@@ -160,7 +156,7 @@
             </div>
             <div class="col-xs-12 col-md-3 offset-md-2">
                 <a class="nav-link" href="https://twitter.com/squarebeans" target="_blank">
-                    <i class="fab fa-twitter-square" id = "contactIcon"></i>
+                    <i class="fab fa-twitter-square" id="contactIcon"></i>
                 </a>
             </div>
         </div>

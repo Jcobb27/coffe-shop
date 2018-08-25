@@ -67,6 +67,7 @@ body, html {
     height: auto; 
     float:left;
     margin-right: 60px;
+    margin-bottom: 70px;
 }
 
 #visitText {
@@ -100,6 +101,9 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+#clear {
+    clear: both;
+}
 
 /*Media Queries*/
 
