@@ -107,6 +107,9 @@ body, html {
     #nav-text {
         color: rgb(170, 169, 169);
     }
+    #map {
+        width: 300px;;
+    }
 }
 
 @media(max-width:576px){
@@ -123,5 +126,8 @@ body, html {
         width: 300px;
         height: auto; 
         margin-bottom: 50px;
+    }
+    #map {
+        width: 300px;;
     }
 }
